@@ -1,0 +1,47 @@
+/* 4.面包屑 */
+.crumbs{
+	margin-top: 5px;
+
+}
+.crumbs a{
+	color: #999;
+	font-size: 14px;
+}
+.crumbs a:hover{
+	color: #999;
+}
+/* 5.主体部分 */
+.address{
+	font-size: 40px;
+    color:#7EC861;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.main  .container .row{
+	border-bottom: 1px dotted #ccc;
+	margin-left: 90px;
+}
+.main .container .row:last-child{
+	border-bottom:none;
+}
+.map h3{
+	color: #555;
+	text-align:left;
+	font-weight: lighter;
+	font-size: 18px;
+}
+.map p{
+	color: #c4c4c4;
+	text-align: left;
+	font-size:14px ;
+}
+@media  screen and (max-width:767px) {
+	.address{
+		text-align: center;
+	}
+	.main  .container .row{
+		margin-left: 0;
+	}
+}
+
